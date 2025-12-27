@@ -1,0 +1,19 @@
+{
+  "name": "spea.kr",
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "format": "prettier . --write",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.16.6"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4",
+    "prettier-plugin-astro": "^0.14.1"
+  }
+}
