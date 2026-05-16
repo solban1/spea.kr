@@ -1,6 +1,8 @@
 import type { AstroUserConfig } from "astro";
 
 // https://astro.build/config
-export default {
+const config: AstroUserConfig = {
   site: "https://spea.kr",
-} as AstroUserConfig;
+};
+
+export default config;
